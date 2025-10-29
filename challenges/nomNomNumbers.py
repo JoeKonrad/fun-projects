@@ -3,6 +3,7 @@
 #process repeats from left to right until no more eating can happen
 
 #note that this version will skip a number and move on to the next one in order to evaluate the entire list
+#if we don't want that to happen, the code becomes much more simple. 
 
 def nom_noms(nom_nom_list):
     final_nom_nom_list = []
@@ -32,3 +33,9 @@ nom_noms([1,2,3])
 nom_noms([2,1,3])
 nom_noms([8,5,9])
 nom_noms([6,5,6,100])
+
+nom_noms([1,2,3,4,5,6,7,8,9])
+
+nom_noms([1,4,3,12,20,6,7,8,9])
+
+nom_noms([1,4,3,12,20,6,7,8,9,55])

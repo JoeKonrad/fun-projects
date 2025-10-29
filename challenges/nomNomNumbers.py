@@ -1,4 +1,4 @@
-#function that "eats" a number to it's right in a list if the number is larger 
+#function that "eats" a number to its right in a list if the number is larger 
 #when it eats, it becomes the sum of both numbers
 #process repeats from left to right until no more eating can happen
 

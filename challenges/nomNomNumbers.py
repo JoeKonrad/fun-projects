@@ -2,6 +2,8 @@
 #when it eats, it becomes the sum of both numbers
 #process repeats from left to right until no more eating can happen
 
+#note that this version will skip a number and move on to the next one in order to evaluate the entire list
+
 def nom_noms(nom_nom_list):
     final_nom_nom_list = []
     def small_nom_noms(nom_nom_list):
